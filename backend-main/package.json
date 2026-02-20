@@ -1,15 +1,14 @@
 {
-  "name": "youtube-backend",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "backend series ",
-  "license": "ISC",
-  "author": "arjit",
-  "type": "module",
   "main": "index.js",
   "scripts": {
-"dev": "nodemon src/index.js"
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   },
   "devDependencies": {
-    "nodemon": "^3.1.11"
+    "nodemon": "^3.0.0"
   }
 }
